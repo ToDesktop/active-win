@@ -1,5 +1,5 @@
 {
-	"name": "@todesktop/active-win-patch",
+	"name": "@todesktop/active-win-prebuild",
 	"version": "7.6.1",
 	"description": "Get metadata about the active window (title, id, bounds, owner, URL, etc). Works on macOS, Linux, Windows.",
 	"license": "MIT",
@@ -8,7 +8,7 @@
 		"url": "https://github.com/ToDesktop/active-win.git"
 	},
 	"funding": "https://github.com/sponsors/sindresorhus",
-  "author": "",
+	"author": "",
 	"engines": {
 		"node": ">=10"
 	},
@@ -18,8 +18,8 @@
 		"build": "swift build --configuration=release && mv .build/release/active-win main",
 		"prepare": "npm run build",
 		"release:minor": "npm version minor && npm publish",
-    "release:major": "npm version major && npm publish",
-    "publish": "npm publish"
+		"release:major": "npm version major && npm publish",
+		"publish": "npm publish"
 	},
 	"files": [
 		"index.js",
