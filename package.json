@@ -25,7 +25,9 @@
 		"index.js",
 		"index.d.ts",
 		"lib",
-		"main"
+		"main",
+		"_main",
+		"_main64"
 	],
 	"keywords": [
 		"macos",
